@@ -11,3 +11,15 @@ body{
     font-family: 'Poppins', sans-serif;
 
  }
+
+ #course img{
+    transform: scale(1.1);
+    
+
+ }
+ @media only screen and (min-width:576px) and (max-width:768px){
+    #course img{
+        transform: scale(1);
+
+ }
+}
